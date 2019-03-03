@@ -5,6 +5,10 @@ import lombok.Getter;
 
 public class CleanupDemo {
 
+    public static void main(String[] args) {
+        new CleanupDemo().cleanup();
+    }
+
     public String cleanup() {
         @Cleanup("destroy") CustomClazz clazz = new CustomClazz();
         return clazz.getName();

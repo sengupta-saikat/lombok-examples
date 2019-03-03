@@ -6,5 +6,12 @@ Examples of following annotations are covered:
 * `@Cleanup`
 * `@NonNull`
 * `@ToString`
+* `@SneakyThrows`
+* `@Getter` and `@Setter`
+* `@EqualsAndHashCode`
+* `@Data`
+* `@Value`
+* `@Builder`
+
 
 For more details visit the [official documentation.](https://projectlombok.org/)  
