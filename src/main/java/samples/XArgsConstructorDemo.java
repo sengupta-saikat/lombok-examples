@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 @NoArgsConstructor
 @RequiredArgsConstructor(staticName = "of")
 @AllArgsConstructor
-public class XArgsConstructor {
+public class XArgsConstructorDemo {
     private int a, b;
     private final int c = 12;
 
@@ -16,8 +16,8 @@ public class XArgsConstructor {
     private String s;
 
     public static void main(String[] args) {
-        XArgsConstructor c1 = new XArgsConstructor();
-        XArgsConstructor c2 = new XArgsConstructor(1, 2, "3");
-        XArgsConstructor c3 = XArgsConstructor.of("abc");
+        XArgsConstructorDemo c1 = new XArgsConstructorDemo();
+        XArgsConstructorDemo c2 = new XArgsConstructorDemo(1, 2, "3");
+        XArgsConstructorDemo c3 = XArgsConstructorDemo.of("abc");
     }
 }
