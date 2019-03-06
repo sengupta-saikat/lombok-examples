@@ -5,6 +5,7 @@ import lombok.Data;
 /**
  * shortcut for @ToString, @EqualsAndHashCode, @Getter on all fields, @Setter on all non-final fields,
  * and @RequiredArgsConstructor!
+ * @see <a href="https://projectlombok.org/features/Data">official documentation</a>
  */
 
 @Data

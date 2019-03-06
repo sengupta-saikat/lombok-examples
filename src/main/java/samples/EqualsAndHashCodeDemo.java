@@ -2,6 +2,12 @@ package samples;
 
 import lombok.EqualsAndHashCode;
 
+/**
+ * Generates implementations of the <code>equals(Object other)</code> and <code>hashCode()</code> methods.
+ * By default, it'll use all non-static, non-transient fields
+ * @see <a href="https://projectlombok.org/features/EqualsAndHashCode">official documentation</a>
+ */
+
 @EqualsAndHashCode
 public class EqualsAndHashCodeDemo {
 

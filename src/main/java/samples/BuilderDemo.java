@@ -3,6 +3,11 @@ package samples;
 import lombok.Builder;
 import lombok.ToString;
 
+/**
+ * produces complex builder APIs for your classes
+ * @see <a href="https://projectlombok.org/features/Builder">official documentation</a>
+ */
+
 @Builder
 @ToString
 public class BuilderDemo {

@@ -3,6 +3,11 @@ package samples;
 import lombok.Cleanup;
 import lombok.Getter;
 
+/**
+ * Ensure a given resource is automatically cleaned up before the code execution path exits your current scope.
+ * @see <a href="https://projectlombok.org/features/Cleanup">official documentation</a>
+ */
+
 public class CleanupDemo {
 
     public static void main(String[] args) {
